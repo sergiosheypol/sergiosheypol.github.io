@@ -87,6 +87,11 @@ p {
   font-size: 1.2em;
   font-family: "Fira Code", monospace;
 }
+#intro #title h5 {
+  font-family: "Fira Code", monospace;
+  font-size: 1em;
+  font-style: italic;
+}
 
 #right-wrapper {
   background-color: #72B01D;
@@ -123,7 +128,10 @@ footer {
   font-size: 6em;
 }
 #wrapper #intro #title h4 {
-  margin-bottom: 280px;
+  margin-bottom: 150px;
+}
+#wrapper #intro #title h5 {
+  margin-bottom: 100px;
 }
 #wrapper #intro #title #links i img {
   width: 2.5em;
@@ -179,6 +187,9 @@ footer {
     font-size: 4em;
   }
   #wrapper #intro #title h4 {
+    margin-bottom: 70px;
+  }
+  #wrapper #intro #title h5 {
     margin-bottom: 70px;
   }
   #wrapper #intro #title #links {
