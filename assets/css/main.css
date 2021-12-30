@@ -52,13 +52,22 @@ body {
   background: #1A1D1A;
   font-size: 1em;
 }
-body a {
+
+a {
   text-underline: none;
   color: #72B01D;
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 p {
   margin-bottom: 1.3em;
+}
+
+h4 a {
+  text-decoration: none;
 }
 
 #wrapper {
