@@ -47,22 +47,27 @@ input {
 }
 
 body {
-  font-family: "Fira Code", monospace;
+  font-family: "Catamaran", sans-serif;
   color: #ffffff;
   background: #1A1D1A;
   font-size: 1em;
 }
-body a {
+
+a {
   text-underline: none;
   color: #72B01D;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Catamaran", sans-serif;
+a:hover {
+  color: #ffffff;
 }
 
 p {
   margin-bottom: 1.3em;
+}
+
+h4 a {
+  text-decoration: none;
 }
 
 #wrapper {
@@ -84,11 +89,9 @@ p {
   color: #72B01D;
 }
 #intro #title h3, #intro #title h4 {
-  font-size: 1.2em;
-  font-family: "Fira Code", monospace;
+  font-size: 1.6em;
 }
 #intro #title h5 {
-  font-family: "Fira Code", monospace;
   font-size: 1em;
   font-style: italic;
 }
@@ -102,7 +105,6 @@ p {
 }
 #right-wrapper article.new-element h2 {
   color: #72B01D;
-  font-size: 3em;
   padding-bottom: 30px;
 }
 
@@ -110,6 +112,14 @@ footer {
   margin-top: 2em;
   font-size: 0.75em;
   text-align: center;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 #wrapper {
@@ -125,7 +135,6 @@ footer {
 }
 #wrapper #intro #title h1 {
   margin-bottom: 280px;
-  font-size: 6em;
 }
 #wrapper #intro #title h4 {
   margin-bottom: 150px;
@@ -143,6 +152,9 @@ footer {
   justify-content: center;
   padding: 100px;
 }
+#wrapper #right-wrapper article.new-element {
+  padding: 100px;
+}
 
 @media (min-width: 1450px) {
   #wrapper {
@@ -156,9 +168,6 @@ footer {
 
   #right-wrapper {
     width: 50%;
-  }
-  #right-wrapper article.new-element {
-    padding: 100px;
   }
 }
 @media (max-width: 1450px) {
@@ -174,17 +183,21 @@ footer {
   #right-wrapper {
     width: auto;
   }
-  #right-wrapper article.new-element {
-    padding: 100px;
-  }
 }
 @media (max-width: 780px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
   #wrapper #intro {
     padding: 7em;
   }
   #wrapper #intro #title h1 {
     margin-bottom: 70px;
-    font-size: 4em;
   }
   #wrapper #intro #title h4 {
     margin-bottom: 70px;
