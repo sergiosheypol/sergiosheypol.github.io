@@ -4,6 +4,13 @@
 //////////////////////////////////////////
 // GENERAL
 //////////////////////////////////////////
+
+h1
+  font-size: $font-size-main
+
+h2
+  font-size: $font-size-title
+
 #wrapper
   display: flex
   flex-wrap: wrap
@@ -19,7 +26,6 @@
     #title
       h1
         margin-bottom: 280px
-        font-size: $font-size-main
 
       h4
         margin-bottom: 150px
@@ -38,6 +44,8 @@
     row-gap: 20px
     justify-content: center
     padding: 100px
+
+
 
 // LARGE
 @media (min-width: 1450px)
@@ -69,6 +77,13 @@
       padding: 100px
 
 @media (max-width: 780px)
+
+  h1
+    font-size: $font-size-main-sm
+
+  h2
+    font-size: $font-size-title-sm
+
   #wrapper
     #intro
       padding: 7em
@@ -76,7 +91,6 @@
       #title
         h1
           margin-bottom: 70px
-          font-size: $font-size-main-sm
 
         h4
           margin-bottom: 70px
