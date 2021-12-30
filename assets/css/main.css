@@ -152,6 +152,9 @@ h2 {
   justify-content: center;
   padding: 100px;
 }
+#wrapper #right-wrapper article.new-element {
+  padding: 100px;
+}
 
 @media (min-width: 1450px) {
   #wrapper {
@@ -166,9 +169,6 @@ h2 {
   #right-wrapper {
     width: 50%;
   }
-  #right-wrapper article.new-element {
-    padding: 100px;
-  }
 }
 @media (max-width: 1450px) {
   #wrapper {
@@ -182,9 +182,6 @@ h2 {
 
   #right-wrapper {
     width: auto;
-  }
-  #right-wrapper article.new-element {
-    padding: 100px;
   }
 }
 @media (max-width: 780px) {
