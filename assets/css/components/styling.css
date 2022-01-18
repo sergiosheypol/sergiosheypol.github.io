@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500&family=Fira+Code:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Catamaran", sans-serif;
+  color: #ffffff;
+  background: #1A1D1A;
+  font-size: 1em;
+}
+
+a {
+  text-underline: none;
+  color: #72B01D;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+#wrapper {
+  background-image: url("../img/big-texture-2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -10em -10em;
+  background-size: 100em 100em;
+}
+
+#intro {
+  text-align: right;
+}
+#intro #title {
+  margin: 2em;
+  width: 100%;
+}
+#intro #title h1 {
+  color: #72B01D;
+}
+#intro #title h3, #intro #title h4 {
+  font-size: 1.6em;
+}
+#intro #title h5 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+#right-wrapper {
+  background-color: #72B01D;
+}
+#right-wrapper article.new-element {
+  border-radius: 25px;
+  background: #1A1D1A;
+}
+#right-wrapper article.new-element h2 {
+  color: #72B01D;
+  padding-bottom: 30px;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styling.css.map */
