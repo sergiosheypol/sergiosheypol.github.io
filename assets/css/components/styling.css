@@ -8,11 +8,11 @@ body {
 
 a {
   text-underline: none;
-  color: #72B01D;
+  color: #00A399;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #F5B82E;
 }
 
 p {
@@ -24,7 +24,6 @@ h4 a {
 }
 
 #wrapper {
-  background-image: url("../img/big-texture-2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: -10em -10em;
@@ -39,7 +38,7 @@ h4 a {
   width: 100%;
 }
 #intro #title h1 {
-  color: #72B01D;
+  color: #00A399;
 }
 #intro #title h3, #intro #title h4 {
   font-size: 1.6em;
@@ -50,15 +49,18 @@ h4 a {
 }
 
 #right-wrapper {
-  background-color: #72B01D;
+  background-color: #00A399;
 }
 #right-wrapper article.new-element {
   border-radius: 25px;
   background: #1A1D1A;
 }
-#right-wrapper article.new-element h2 {
-  color: #72B01D;
-  padding-bottom: 30px;
+#right-wrapper article.new-element h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#right-wrapper article.new-element h3 a:hover {
+  color: #F5B82E;
 }
 
 footer {

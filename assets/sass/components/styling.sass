@@ -11,7 +11,7 @@ a
   color: $color-green
 
 a:hover
-  color: $color-white
+  color: $color-accent
 
 p
   margin-bottom: 1.3em
@@ -21,7 +21,6 @@ h4
     text-decoration: none
 
 #wrapper
-  background-image: url("../img/big-texture-2.png")
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: -10em -10em
@@ -56,9 +55,13 @@ h4
     border-radius: 25px
     background: $color-grey
 
-    h2
-      color: $color-green
-      padding-bottom: 30px
+    h3
+      a
+        color: $color-white
+        text-decoration: none
+      a:hover
+        color: $color-accent
+
 
 footer
   margin-top: 2em

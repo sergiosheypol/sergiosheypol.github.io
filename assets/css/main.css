@@ -55,11 +55,11 @@ body {
 
 a {
   text-underline: none;
-  color: #72B01D;
+  color: #00A399;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #F5B82E;
 }
 
 p {
@@ -71,7 +71,6 @@ h4 a {
 }
 
 #wrapper {
-  background-image: url("../img/big-texture-2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: -10em -10em;
@@ -86,7 +85,7 @@ h4 a {
   width: 100%;
 }
 #intro #title h1 {
-  color: #72B01D;
+  color: #00A399;
 }
 #intro #title h3, #intro #title h4 {
   font-size: 1.6em;
@@ -97,15 +96,18 @@ h4 a {
 }
 
 #right-wrapper {
-  background-color: #72B01D;
+  background-color: #00A399;
 }
 #right-wrapper article.new-element {
   border-radius: 25px;
   background: #1A1D1A;
 }
-#right-wrapper article.new-element h2 {
-  color: #72B01D;
-  padding-bottom: 30px;
+#right-wrapper article.new-element h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#right-wrapper article.new-element h3 a:hover {
+  color: #F5B82E;
 }
 
 footer {
@@ -120,6 +122,10 @@ h1 {
 
 h2 {
   font-size: 3em;
+}
+
+h3 {
+  font-size: 1.6em;
 }
 
 #wrapper {
@@ -150,22 +156,20 @@ h2 {
   flex-direction: column;
   row-gap: 20px;
   justify-content: center;
-  padding: 100px;
+  padding: 150px;
 }
 #wrapper #right-wrapper article.new-element {
-  padding: 100px;
+  padding: 25px;
 }
 
 @media (min-width: 1450px) {
   #wrapper {
     flex-direction: row;
   }
-
   #intro {
     width: 50%;
     padding: 200px;
   }
-
   #right-wrapper {
     width: 50%;
   }
@@ -174,25 +178,24 @@ h2 {
   #wrapper {
     flex-direction: row;
   }
-
   #intro {
     width: 100%;
     padding: 200px;
   }
-
   #right-wrapper {
-    width: auto;
+    width: 100%;
   }
 }
 @media (max-width: 780px) {
   h1 {
     font-size: 4em;
   }
-
   h2 {
     font-size: 2em;
   }
-
+  h3 {
+    font-size: 2em;
+  }
   #wrapper #intro {
     padding: 7em;
   }

@@ -7,6 +7,10 @@ h2 {
   font-size: 3em;
 }
 
+h3 {
+  font-size: 1.6em;
+}
+
 #wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -35,22 +39,20 @@ h2 {
   flex-direction: column;
   row-gap: 20px;
   justify-content: center;
-  padding: 100px;
+  padding: 150px;
 }
 #wrapper #right-wrapper article.new-element {
-  padding: 100px;
+  padding: 25px;
 }
 
 @media (min-width: 1450px) {
   #wrapper {
     flex-direction: row;
   }
-
   #intro {
     width: 50%;
     padding: 200px;
   }
-
   #right-wrapper {
     width: 50%;
   }
@@ -59,25 +61,24 @@ h2 {
   #wrapper {
     flex-direction: row;
   }
-
   #intro {
     width: 100%;
     padding: 200px;
   }
-
   #right-wrapper {
-    width: auto;
+    width: 100%;
   }
 }
 @media (max-width: 780px) {
   h1 {
     font-size: 4em;
   }
-
   h2 {
     font-size: 2em;
   }
-
+  h3 {
+    font-size: 2em;
+  }
   #wrapper #intro {
     padding: 7em;
   }
